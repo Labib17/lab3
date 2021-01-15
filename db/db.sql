@@ -21,7 +21,7 @@ grant all privileges on  paysystem.* to helen;
 
 delimiter $$
 drop procedure if exists  transfer;
-create procedure  transfe (Id_of_sender int, Id_of_recepient int, amount int,  last_operation datetime)
+create procedure  transfer (Id_of_sender int, Id_of_recepient int, amount int,  last_operation datetime)
 
 begin 
 
